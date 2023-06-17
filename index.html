@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <main>
+      <h1>Password Generator</h1>
+
+      <button onclick="generatePassword()">Generate Password</button>
+
+      <div>
+        <label for="password">Generated Password:</label>
+        <input type="text" id="password" onclick="copyToClipboard();" readonly />
+      </div>
+
+      <p>Generate a secure and random password with this password generator tool. It generates strong passwords that are difficult to guess or crack. Simply click the "Generate Password" button to get a unique password consisting of random letters, numbers, where there is one number and one uppercase character, separated in 3 parts. The generated password is designed to provide a good level of security for your online accounts, protecting your sensitive information. Use this tool whenever you need a strong password for your accounts, and remember to store it in a safe place.</p>
+      <p style="text-align: center; font-size: 1.109375em;"><strong>Click the generated password to copy it!</strong></p>
+      <script src="password.js" ></script>
+      <script src="clipboard.js"></script>
+    </main>
+  </body>
+</html>
