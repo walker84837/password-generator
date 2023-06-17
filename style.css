@@ -126,7 +126,7 @@ button:hover {
 }
 
 footer {
-  background-color: var(--background-color);
+  background-color: #0a100b7f;
   color: var(--text-color);
   padding: var(--spacing);
   text-align: center;
@@ -135,12 +135,13 @@ footer {
 }
 
 footer a {
-  color: #c9d8cd;
-  text-decoration: underline;
+  color: #DBE7E4;
+  transition: linear 0.25s;
 }
 
 footer a:hover {
-  color: #a7c1b0;
+  font-weight: 600;
+  color: #c1b9a7;
 }
 
 .success-notification {
